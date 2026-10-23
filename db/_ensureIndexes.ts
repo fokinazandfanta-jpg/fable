@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-import { Mongo } from '~/db/index.ts';
+import { Mongo } from './index.ts';
 
 enum Direction {
   ascending = 1,
